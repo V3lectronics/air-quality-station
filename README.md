@@ -15,13 +15,6 @@ Measurement range
 - No battery (a powerbank can be used)
 - Not waterproof
 
-# TODO
-add test points
-add drill holes to mount sensor to PCB
-add gpio outputs for extra stuff
-add led at analog output
-add made in kicad (copy from cm5 io board)
-wifi/bluetooth connectivity???
 
 # Components list
 
@@ -31,8 +24,8 @@ wifi/bluetooth connectivity???
 </div> 
 
 
-> [!TODO] //find cheaper for example https://www.dfrobot.com/product-2526.html
 - GRAVITY PM2.5 air quality sensor [link](https://www.dfrobot.com/product-2439.html)
+> [!TODO] //find cheaper for example https://www.dfrobot.com/product-2526.html
 <div style='text-align: center;'> 
 <img src='https://cdn3.botland.store/img/art/inne/20678_16b.jpg' width='30%'>
 </div> 
@@ -40,8 +33,8 @@ wifi/bluetooth connectivity???
 > Other sensors can be used as alternatives if you need more precise measurements.
 
 
-> [!TODO] //find suitable option
 - LCD Display + I2C adapter [link]()
+> [!TODO] //find suitable option
 <div style='text-align: center;'> 
 <img src='https://vishaworld.com/cdn/shop/products/0.96InchI2CIIC4pinOLEDDisplayModuleBLUE1.jpg?v=1624424421' width='30%'>  
 </div> 
@@ -57,6 +50,7 @@ wifi/bluetooth connectivity???
 <div style='text-align: center;'> 
 <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvubqvIT2sCbDnZAM4_JZKVXFErDj4kKI99Q&s' width='30%'>  
 </div> 
+
 > [!NOTE]
 > DHT12 can be used as a slightly cheaper alternative compromising accuracy and measurement range.
 
@@ -78,3 +72,11 @@ wifi/bluetooth connectivity???
 
 
 
+# TODO
+
+- add test points
+- add drill holes to mount sensor to PCB
+- add gpio outputs for extra stuff
+- add led at analog output
+- add made in kicad (copy from cm5 io board)
+- wifi/bluetooth connectivity???
