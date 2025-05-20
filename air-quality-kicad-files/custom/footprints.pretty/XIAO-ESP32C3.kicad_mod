@@ -369,4 +369,15 @@
 		(uuid "5d4780cd-1f88-4bb7-8b4b-8bd2cfda701c")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/custom/3D/XIAO-ESP32C3.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )

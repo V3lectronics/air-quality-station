@@ -1,0 +1,116 @@
+(footprint "buzzer-XDCR_PS1240P02BT"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.555 -7.889 0)
+		(layer "F.SilkS")
+		(uuid "6bc709fa-9969-4969-a6c9-9c05c977802a")
+		(effects
+			(font
+				(size 1.4 1.4)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "XDCR_PS1240P02BT"
+		(at 9.224 8.111 0)
+		(layer "F.Fab")
+		(uuid "311db89e-c7d8-4bd4-9427-119aef563404")
+		(effects
+			(font
+				(size 1.4 1.4)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fa371ea5-b45b-40c7-9b3e-d44486c2b1e8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3a23c6ef-5216-4367-8943-1ed653594c1f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 6.1 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "bb0ce23f-ca1a-4565-84c7-8266bb8fa35c")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 6.35 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "d8d7fc5a-2a3f-4e06-8ef4-60a0d2b2939b")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 6.1 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "2934f6a8-5e86-4660-8d40-0dae08fbe073")
+	)
+	(pad "1" thru_hole circle
+		(at -2.5 0)
+		(size 1.28 1.28)
+		(drill 0.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "a465ffd8-6d9b-4292-ba86-fdc390d177ae")
+	)
+	(pad "2" thru_hole circle
+		(at 2.5 0)
+		(size 1.28 1.28)
+		(drill 0.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "ff31ba27-e6c5-4bf3-b998-674f7abe8cfe")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/custom/3D/buzzer-PS1240P02BT.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 90)
+		)
+	)
+)
